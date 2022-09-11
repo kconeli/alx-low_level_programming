@@ -3,7 +3,6 @@
  * Auth: Enock Ondara
  */
 
-#include<unisth.h>
 
 /**
  * main - Print"and that piece of art is useful" -Dora korpar, 2015-10-19",
