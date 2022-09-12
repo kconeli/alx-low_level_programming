@@ -3,7 +3,7 @@
 /**
  * main - prints numbers base 10
  *
- * eturn: Always return 0
+ * Return: Always return 0
  */
 int main(void)
 {
