@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 
 /**
  * main - main function
@@ -12,8 +12,8 @@ int main(void)
 
 	for (p = 0; p < 8; p++)
 	{
-		_putchar(charName[p]);
+		putchar(charName[p]);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
