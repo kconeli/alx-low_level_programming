@@ -60,4 +60,3 @@ int _strlen(const char *s)
 	}
 
 	return (c);
-}
