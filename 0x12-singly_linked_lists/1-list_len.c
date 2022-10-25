@@ -15,7 +15,7 @@ size_t list_len(const list_t *h)
 	nil = h;
 
 	for (i = 0; nil; i++)
-	i
+	{
 		nil = nil->next;
 	}
 	return (i);
