@@ -1,5 +1,6 @@
-ifndef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
+
 #include <stdio.h>
 
 int _putchar(char c);
@@ -13,5 +14,6 @@ int _putchar(char c);
  int is_palindrome(char *s);
  int wildcmp(char *s1, char *s2);
  int _putchar();
+
 #endif
 
