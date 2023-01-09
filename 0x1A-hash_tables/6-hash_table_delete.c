@@ -1,4 +1,4 @@
-#include "hash_tables.h"
+#include "main.h"
 
 /**
  * hash_table_delete - Deletes a hash table.
