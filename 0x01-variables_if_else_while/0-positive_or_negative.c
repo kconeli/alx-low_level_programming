@@ -1,12 +1,11 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /**
- * main - entry point of programs
+ * main - entry point is the main function that prints string.
  *
- * Return - return 0
+ * @return int Return value indicating the exit status. In this case, 0.
  */
-
 int main(void)
 {
 	int n;
@@ -19,7 +18,7 @@ int main(void)
 	else if (n < 0)
 		printf("%d is negative", n);
 	else
-		printf("%d is is zero", n);
+		printf("%d is zero", n);
 	printf("\n");
 	return (0);
 }
