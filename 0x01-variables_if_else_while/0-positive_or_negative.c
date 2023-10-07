@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - entry point is the main function that prints string.
+ * main - entry point of programs
  *
- * @return int Return value indicating the exit status. In this case, 0.
+ * Return: return 0
  */
+
 int main(void)
 {
 	int n;
