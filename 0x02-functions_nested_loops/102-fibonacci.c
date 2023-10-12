@@ -8,8 +8,9 @@
  */
 int main (void)
 {
-	long int n = 50;
+	int n = 50;
 	long int f = 0, s = 1;
+
 	for (int i = 0; i <= n; i++)
 	{
 		printf("%ld, ",f);
