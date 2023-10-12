@@ -6,21 +6,22 @@
  *
  * Return: returns 0
  */
-int main (void)
+int main(void)
 {
 	int n = 50;
 	int i;
-	long int f = 0, s = 1;
+	long int f = 1, s = 1;
 
-	while ( i < n)
+	while (i < n)
 	{
-	
 		long int next = f + s;
+
 		f = s;
 		s = next;
-		printf("%ld, ",f);
+		printf("%ld, ", f);
 		i++;
 	}
 	printf("\n");
 	return (0);
+
 }
