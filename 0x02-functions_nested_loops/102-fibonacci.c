@@ -21,12 +21,12 @@ int main(void)
 		s = next;
 		if (i < 49)
 		{
-			printf(" %ld, ", f);
+			printf("%ld, ", f);
 			i++;
 		}
 		else
 		{
-			printf("%ld",f);
+			printf("%ld", f);
 			i++;
 		}
 	}
