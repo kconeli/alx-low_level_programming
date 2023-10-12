@@ -9,14 +9,17 @@
 int main (void)
 {
 	int n = 50;
+	int i;
 	long int f = 0, s = 1;
 
-	for (int i = 0; i <= n; i++)
+	while ( i < n)
 	{
-		printf("%ld, ",f);
+	
 		long int next = f + s;
 		f = s;
 		s = next;
+		printf("%ld, ",f);
+		i++;
 	}
 	printf("\n");
 	return (0);
