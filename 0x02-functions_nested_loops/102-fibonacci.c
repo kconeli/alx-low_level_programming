@@ -14,12 +14,21 @@ int main(void)
 
 	while (i < n)
 	{
+
 		long int next = f + s;
 
 		f = s;
 		s = next;
-		printf(", %ld", f);
-		i++;
+		if (i < 49)
+		{
+			printf(" %ld, ", f);
+			i++;
+		}
+		else
+		{
+			printf("%ld",f);
+			i++;
+		}
 	}
 	printf("\n");
 	return (0);
