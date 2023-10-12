@@ -18,7 +18,7 @@ int main(void)
 
 		f = s;
 		s = next;
-		printf("%ld, ", f);
+		printf(", %ld", f);
 		i++;
 	}
 	printf("\n");
